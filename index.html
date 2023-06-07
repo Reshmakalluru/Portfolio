@@ -22,12 +22,12 @@
             <li><a href="#id3">Contact</a></li>
         </ul>
         <!--Sign up-->
-        <button class="button">Sign up/Login</button>
+        <a href="#id4"><button class="button">Sign up/Login</button></a>
     </div>
 
     <!-- About section-->
     <div id="id1">
-    <u><h1>ABOUT ME</h1></u>
+    <u><h1 class="head">ABOUT ME</h1></u>
     <div class="about" >
         <pre class="family">
             <b>Name: </b>Reshma Kalluru
@@ -38,14 +38,14 @@
             <b>Stream: </b>CSE
             <b>Gender: </b>Female
         </pre>
-        <img src="./assets/images/WhatsApp Image 2023-06-02 at 20.08.53.jpg" alt="" width="250px" height="300px">
+        <img src="./assets/images/photo-1494790108377-be9c29b29330.jpeg" alt="" width="250px" height="350px">
     </div>
     </div>
     <hr>
 
     <!--Projects section-->
     <div id="id2">
-    <u><h1>PROJECTS</h1></u>
+    <u><h1 class="head">PROJECTS</h1></u>
     <div class="projects" >
         <div class="child">
             <h2>Andhra Spicy</h2>
@@ -73,34 +73,37 @@
         </div>
     </div>
     </div>
-    <hr>
-
-    <!--contact section-->
-    <div id="id3">
-    <u><h1>CONTACT</h1></u>
-    <div class="contact">
-        <pre>
-            <b>Address:</b>
-            D.no:5/41,
-            Mallampet(V),
-            Mantapampalli(P),
-            Vontimitta(M),
-            Kadapa(D),
-            PIN:516152.
-        </pre>
-        <pre>
-            <b>Contact1:</b>7287814523
-            <b>Contact2:</b>9494308680
-            <b>Email:</b>reshmakalluru8680@gmail.com
-        </pre>
-    </div>
-    </div>
 
     <!--Footer section-->
     <div class="footer">
-        <p style="color:black;">Copyright© 2023 Reshma Kalluru. All Rights Reserved.</p>
-        <a href="">About</a>
-        <a href="">Contact</a>
+        <p>Copyright© 2023 Reshma Kalluru. All Rights Reserved.</p>
+        <div class="footer1" id="id3">    
+            <h3>Contact</h3>
+            <p style="padding-left: 50px;"><img src="./assets/images/house-door-fill.svg" alt="">Hyderabad</p>
+            <p style="padding-left: 50px;"><img src="./assets/images/telephone-fill.svg" alt=""> +91 7549803694</p>
+            <p style="padding-left: 50px;"><img src="./assets/images/telephone-booth.png" alt="">+91 9894569475</p>
+            <p style="padding-left: 50px;"><img src="./assets/images/envelope-fill.svg" alt="">example@gmail.com</p>
+        </div>
+        <div class="footer2" id="id4">
+            <h3>Signup</h3>
+            <form>
+                <label for="Name">Full Name:</label>
+                <input type="text" name="Name"><br>
+                <label for="Email">Email:</label>
+                <input type="email" name="Email"><br>
+                <label for="Password">Password</label>
+                <input type="Password" name="Password">
+            </form>
+            <p style="padding-left: 10px;">Already a user <a href="#id4"><button>Login</button></a></p>
+            <h3>Login</h3>
+            <form>
+                <label for="Email">Email:</label>
+                <input type="Email" name="Email"><br>
+                <label for="Password">Password:</label>
+                <input type="Password" name="Password">
+            </form>
+            <p style="padding-left: 10px;">New user <a href="#id4"><button>SignUp</button></a></p>
+        </div>
     </div>
 </body>
 </html>

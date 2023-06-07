@@ -44,7 +44,7 @@ a{
 .family{
     font-family:cursive;
 }
-h1{
+.head{
     padding-top: 30px;
     text-align: center;
     color:rgb(243, 10, 193);
@@ -53,12 +53,6 @@ h1{
 b{
     color:chartreuse;
     padding-bottom: 2px;
-}
-h1{
-    padding-top: 40px;
-    text-align: center;
-    color:rgb(243, 10, 193);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .projects{
     padding-top:30px;
@@ -83,20 +77,13 @@ h3{
 .footer{
     background-color: gray;
     display: flex;
-    align-items: center;
     justify-content: space-evenly;
     font-size: 20px;
+    color:black;
 }
 .img1{
     padding-left: 110px;
     padding-top: 20px;
-}
-.contact{
-    display: flex;
-    justify-content: space-evenly;
-    font-size: 20px;
-    padding-top: 20px;
-    padding-bottom: 30px;
 }
 .button1{
     display: flex;
@@ -107,4 +94,8 @@ h3{
     height: 30px;
     align-items: center;
     border-radius: 5px;
+}
+.footer1{
+    display: flex;
+    flex-direction: column;
 }
